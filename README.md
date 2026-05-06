@@ -8,7 +8,7 @@ My coding is mostly Python and R scripts (linear), and I learned just before eve
 
 Should have enough files for...
 
-Badge - shape, art, compnents and layout (so the schematic, layout, and program files). 
+Badge - shape, art, components and layout (so the schematic, layout, and program files). 
 
 BOM - Bill Of Materials (the parts to order).
 
