@@ -1,0 +1,1361 @@
+(export 
+  (version "E") 
+  (design 
+    (source "/Users/natpoor/Documents/KiCad Projects/Game_Studies_2026/Game_Studies_2026.kicad_sch") 
+    (date "2025-07-18T12:22:01-0400") 
+    (tool "Eeschema 8.0.5") 
+    (sheet 
+      (number "1") 
+      (name "/") 
+      (tstamps "/") 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source "Game_Studies_2026.kicad_sch") 
+        (comment 
+          (number "1") 
+          (value "")) 
+        (comment 
+          (number "2") 
+          (value "")) 
+        (comment 
+          (number "3") 
+          (value "")) 
+        (comment 
+          (number "4") 
+          (value "")) 
+        (comment 
+          (number "5") 
+          (value "")) 
+        (comment 
+          (number "6") 
+          (value "")) 
+        (comment 
+          (number "7") 
+          (value "")) 
+        (comment 
+          (number "8") 
+          (value "")) 
+        (comment 
+          (number "9") 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref "BT1") 
+      (value "BH-67D-5 (3V 2032)") 
+      (footprint "BH_67D_5:BAT_BH-67D-5") 
+      (fields 
+        (field 
+          (name "PARTREV") "A") 
+        (field 
+          (name "STANDARD") "Manufacturer Recommendations") 
+        (field 
+          (name "MAXIMUM_PACKAGE_HEIGHT") "3.6mm") 
+        (field 
+          (name "MANUFACTURER") "Adam Tech") 
+        (field 
+          (name "Footprint") "BH_67D_5:BAT_BH-67D-5") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description"))) 
+      (libsource 
+        (lib "BH-67D-5") 
+        (part "BH-67D-5") 
+        (description "")) 
+      (property 
+        (name "PARTREV") 
+        (value "A")) 
+      (property 
+        (name "STANDARD") 
+        (value "Manufacturer Recommendations")) 
+      (property 
+        (name "MAXIMUM_PACKAGE_HEIGHT") 
+        (value "3.6mm")) 
+      (property 
+        (name "MANUFACTURER") 
+        (value "Adam Tech")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "d9922425-e228-418d-914e-31802c463b53")) 
+    (comp 
+      (ref "Button1Power1") 
+      (value "FSM100") 
+      (footprint "footprints 2:SWITCH_FSM100_TYC") 
+      (datasheet "FSM100") 
+      (fields 
+        (field 
+          (name "Footprint") "footprints 2:SWITCH_FSM100_TYC") 
+        (field 
+          (name "Datasheet") "FSM100") 
+        (field 
+          (name "Description"))) 
+      (libsource 
+        (lib "2025-02-05_22-10-57") 
+        (part "FSM100") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "FSM100")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "SWITCH_FSM100_TYC")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "6c6965b2-c66f-4751-adab-4ab0e40bbbe7")) 
+    (comp 
+      (ref "Button2Mode1") 
+      (value "FSM100") 
+      (footprint "footprints 2:SWITCH_FSM100_TYC") 
+      (datasheet "FSM100") 
+      (fields 
+        (field 
+          (name "Footprint") "footprints 2:SWITCH_FSM100_TYC") 
+        (field 
+          (name "Datasheet") "FSM100") 
+        (field 
+          (name "Description"))) 
+      (libsource 
+        (lib "2025-02-05_22-10-57") 
+        (part "FSM100") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "FSM100")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "SWITCH_FSM100_TYC")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "1b0310ff-369e-4114-aaf3-2713236cdf11")) 
+    (comp 
+      (ref "C1") 
+      (value "0.1uF") 
+      (footprint "Capacitor_SMD:C_0504_1310Metric") 
+      (description "Unpolarized capacitor") 
+      (fields 
+        (field 
+          (name "Footprint") "Capacitor_SMD:C_0504_1310Metric") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Unpolarized capacitor")) 
+      (libsource 
+        (lib "Device") 
+        (part "C") 
+        (description "Unpolarized capacitor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "cap capacitor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "C_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "06baa3bf-7f75-4dac-b275-cc3fe97d218c")) 
+    (comp 
+      (ref "D1") 
+      (value "3.1V Blue") 
+      (footprint "LED_THT:LED_D10.0mm") 
+      (description "Light emitting diode") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_D10.0mm") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Light emitting diode")) 
+      (libsource 
+        (lib "Device") 
+        (part "LED") 
+        (description "Light emitting diode")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "LED diode")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED* LED_SMD:* LED_THT:*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "8ddd77bb-56df-45de-b960-c154066198b3")) 
+    (comp 
+      (ref "D2") 
+      (value "2.2V Yellow") 
+      (footprint "LED_THT:LED_D10.0mm") 
+      (description "Light emitting diode") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_D10.0mm") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Light emitting diode")) 
+      (libsource 
+        (lib "Device") 
+        (part "LED") 
+        (description "Light emitting diode")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "LED diode")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED* LED_SMD:* LED_THT:*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "149729b3-341f-4883-8d59-40d466b7855c")) 
+    (comp 
+      (ref "D3") 
+      (value "2.85V Green") 
+      (footprint "LED_THT:LED_D10.0mm") 
+      (description "Light emitting diode") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_D10.0mm") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Light emitting diode")) 
+      (libsource 
+        (lib "Device") 
+        (part "LED") 
+        (description "Light emitting diode")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "LED diode")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED* LED_SMD:* LED_THT:*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "7ba54ffa-239a-4bdf-90ee-833240c60c5a")) 
+    (comp 
+      (ref "D4") 
+      (value "2.2V Red") 
+      (footprint "LED_THT:LED_D10.0mm") 
+      (description "Light emitting diode") 
+      (fields 
+        (field 
+          (name "Footprint") "LED_THT:LED_D10.0mm") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Light emitting diode")) 
+      (libsource 
+        (lib "Device") 
+        (part "LED") 
+        (description "Light emitting diode")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "LED diode")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "LED* LED_SMD:* LED_THT:*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "0ba9f015-e6f8-451f-bcd1-93c24ed196a6")) 
+    (comp 
+      (ref "ICSP1") 
+      (value "3x2 M") 
+      (footprint "Connector_fromGitHub:Conn_02x03_no_silk") 
+      (fields 
+        (field 
+          (name "Footprint") "Connector_fromGitHub:Conn_02x03_no_silk") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description"))) 
+      (libsource 
+        (lib "Metro THM+LDO Rev C - CP2104-eagle-import") 
+        (part "HEADER-2X3") 
+        (description "PIN HEADER")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "88612e79-38bb-46b6-9bdb-b9a9355e1ee5")) 
+    (comp 
+      (ref "R1") 
+      (value "50 Ohm") 
+      (footprint "Resistor_SMD:R_0402_1005Metric") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_SMD:R_0402_1005Metric") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "b6a98c4e-b9cf-4d15-a099-2012410c89ee")) 
+    (comp 
+      (ref "R2") 
+      (value "50 Ohm") 
+      (footprint "Resistor_SMD:R_0402_1005Metric") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_SMD:R_0402_1005Metric") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "f445ca95-b31f-4f5a-acb6-299c75e650c5")) 
+    (comp 
+      (ref "R3") 
+      (value "100 Ohm") 
+      (footprint "Resistor_SMD:R_0402_1005Metric") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_SMD:R_0402_1005Metric") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "01675e3d-f5a0-4001-82e6-83253055e561")) 
+    (comp 
+      (ref "R4") 
+      (value "100 Ohm") 
+      (footprint "Resistor_SMD:R_0402_1005Metric") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_SMD:R_0402_1005Metric") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "fb42b6cf-613a-4dd7-a506-b77d89b759f1")) 
+    (comp 
+      (ref "R5") 
+      (value "10k") 
+      (footprint "Resistor_SMD:R_0402_1005Metric") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_SMD:R_0402_1005Metric") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "57c37aef-2a2d-44d6-80fd-8f2a386377f3")) 
+    (comp 
+      (ref "R6") 
+      (value "10k") 
+      (footprint "Resistor_SMD:R_0402_1005Metric") 
+      (description "Resistor") 
+      (fields 
+        (field 
+          (name "Footprint") "Resistor_SMD:R_0402_1005Metric") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "Resistor")) 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "R res resistor")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "R_*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "1c167b90-3d68-4d2a-8cc2-5ab81617a7af")) 
+    (comp 
+      (ref "U1") 
+      (value "ATMEGA328PB-AU") 
+      (footprint "footprints:32A_MCH") 
+      (datasheet "ATMEGA328PB-AU") 
+      (fields 
+        (field 
+          (name "Footprint") "footprints:32A_MCH") 
+        (field 
+          (name "Datasheet") "ATMEGA328PB-AU") 
+        (field 
+          (name "Description"))) 
+      (libsource 
+        (lib "2024-11-01_19-55-46") 
+        (part "ATMEGA328PB-AU") 
+        (description "")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Game_Studies_2026.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "ATMEGA328PB-AU")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "32A_MCH 32A_MCH-M 32A_MCH-L")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "60f636b9-bd7a-4483-9227-b2c960823b6a"))) 
+  (libparts 
+    (libpart 
+      (lib "2024-11-01_19-55-46") 
+      (part "ATMEGA328PB-AU") 
+      (docs "ATMEGA328PB-AU") 
+      (footprints 
+        (fp "32A_MCH") 
+        (fp "32A_MCH-M") 
+        (fp "32A_MCH-L")) 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "ATMEGA328PB-AU") 
+        (field 
+          (name "Footprint") "32A_MCH") 
+        (field 
+          (name "Datasheet") "ATMEGA328PB-AU") 
+        (field 
+          (name "Description"))) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "(OC2B/INT1/PTCXY)PD3") 
+          (type "bidirectional")) 
+        (pin 
+          (num "2") 
+          (name "(XCK0/T0/PTCXY)PD4") 
+          (type "bidirectional")) 
+        (pin 
+          (num "3") 
+          (name "(SDA1/ICP4/ACO/PTCXY)PE0") 
+          (type "bidirectional")) 
+        (pin 
+          (num "4") 
+          (name "VCC") 
+          (type "power_in")) 
+        (pin 
+          (num "5") 
+          (name "GND") 
+          (type "power_in")) 
+        (pin 
+          (num "6") 
+          (name "(SCL1/T4/PTCXY)PE1") 
+          (type "bidirectional")) 
+        (pin 
+          (num "7") 
+          (name "(XTAL1/TOSC1)PB6") 
+          (type "bidirectional")) 
+        (pin 
+          (num "8") 
+          (name "(XTAL2/TOSC2)PB7") 
+          (type "bidirectional")) 
+        (pin 
+          (num "9") 
+          (name "(OC0B/T1/PTCXY)PD5") 
+          (type "bidirectional")) 
+        (pin 
+          (num "10") 
+          (name "(OC0A/PTCXY/AIN0)PD6") 
+          (type "bidirectional")) 
+        (pin 
+          (num "11") 
+          (name "(PTCXY/AIN1)PD7") 
+          (type "bidirectional")) 
+        (pin 
+          (num "12") 
+          (name "(ICP1/CLKO/PTCXY)PB0") 
+          (type "bidirectional")) 
+        (pin 
+          (num "13") 
+          (name "(OC1A/PTCXY)PB1") 
+          (type "bidirectional")) 
+        (pin 
+          (num "14") 
+          (name "(*SS0/OC1B/PTCXY)PB2") 
+          (type "bidirectional")) 
+        (pin 
+          (num "15") 
+          (name "(MOSI0/TXD1/OC2A/PTCXY)PB3") 
+          (type "bidirectional")) 
+        (pin 
+          (num "16") 
+          (name "(MISO0/RXD1/PTCXY)PB4") 
+          (type "bidirectional")) 
+        (pin 
+          (num "17") 
+          (name "(PTCXY/XCK1/SCK0)PB5") 
+          (type "bidirectional")) 
+        (pin 
+          (num "18") 
+          (name "AVCC") 
+          (type "power_in")) 
+        (pin 
+          (num "19") 
+          (name "(ADC6/PTCY/ICP3/*SS1)PE2") 
+          (type "bidirectional")) 
+        (pin 
+          (num "20") 
+          (name "AREF") 
+          (type "bidirectional")) 
+        (pin 
+          (num "21") 
+          (name "GND") 
+          (type "power_in")) 
+        (pin 
+          (num "22") 
+          (name "(ADC7/PTCY/T3/MOSI1)PE3") 
+          (type "bidirectional")) 
+        (pin 
+          (num "23") 
+          (name "(ADC0/PTCY/MISO1)PC0") 
+          (type "bidirectional")) 
+        (pin 
+          (num "24") 
+          (name "(ADC1/PTCY/SCK1)PC1") 
+          (type "bidirectional")) 
+        (pin 
+          (num "25") 
+          (name "(ADC2/PTCY)PC2") 
+          (type "bidirectional")) 
+        (pin 
+          (num "26") 
+          (name "(ADC3/PTCY)PC3") 
+          (type "bidirectional")) 
+        (pin 
+          (num "27") 
+          (name "(ADC4/PTCY/SDA0)PC4") 
+          (type "bidirectional")) 
+        (pin 
+          (num "28") 
+          (name "(ADC5/PTCY/SCL0)PC5") 
+          (type "bidirectional")) 
+        (pin 
+          (num "29") 
+          (name "(*RESET)PC6") 
+          (type "bidirectional")) 
+        (pin 
+          (num "30") 
+          (name "(PTCXY/OC3A/RXD0)PD0") 
+          (type "bidirectional")) 
+        (pin 
+          (num "31") 
+          (name "(PTCXY/OC4A/TXD0)PD1") 
+          (type "bidirectional")) 
+        (pin 
+          (num "32") 
+          (name "(PTCXY/INT0/OC3B/OC4B)PD2") 
+          (type "bidirectional")))) 
+    (libpart 
+      (lib "2025-02-05_22-10-57") 
+      (part "FSM100") 
+      (docs "FSM100") 
+      (footprints 
+        (fp "SWITCH_FSM100_TYC")) 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "FSM100") 
+        (field 
+          (name "Footprint") "SWITCH_FSM100_TYC") 
+        (field 
+          (name "Datasheet") "FSM100") 
+        (field 
+          (name "Description"))) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "1") 
+          (type "unspecified")) 
+        (pin 
+          (num "2") 
+          (name "2") 
+          (type "unspecified")) 
+        (pin 
+          (num "3") 
+          (name "3") 
+          (type "unspecified")) 
+        (pin 
+          (num "4") 
+          (name "4") 
+          (type "unspecified")))) 
+    (libpart 
+      (lib "BH-67D-5") 
+      (part "BH-67D-5") 
+      (fields 
+        (field 
+          (name "Reference") "BT") 
+        (field 
+          (name "Value") "BH-67D-5") 
+        (field 
+          (name "Footprint") "BH-67D-5:BAT_BH-67D-5") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description")) 
+        (field 
+          (name "PARTREV") "A") 
+        (field 
+          (name "STANDARD") "Manufacturer Recommendations") 
+        (field 
+          (name "MAXIMUM_PACKAGE_HEIGHT") "3.6mm") 
+        (field 
+          (name "MANUFACTURER") "Adam Tech")) 
+      (pins 
+        (pin 
+          (num "N") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "P1") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "C") 
+      (description "Unpolarized capacitor") 
+      (docs "~") 
+      (footprints 
+        (fp "C_*")) 
+      (fields 
+        (field 
+          (name "Reference") "C") 
+        (field 
+          (name "Value") "C") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Unpolarized capacitor")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "LED") 
+      (description "Light emitting diode") 
+      (docs "~") 
+      (footprints 
+        (fp "LED*") 
+        (fp "LED_SMD:*") 
+        (fp "LED_THT:*")) 
+      (fields 
+        (field 
+          (name "Reference") "D") 
+        (field 
+          (name "Value") "LED") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Light emitting diode")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "K") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "A") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "R") 
+      (description "Resistor") 
+      (docs "~") 
+      (footprints 
+        (fp "R_*")) 
+      (fields 
+        (field 
+          (name "Reference") "R") 
+        (field 
+          (name "Value") "R") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Resistor")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Metro THM+LDO Rev C - CP2104-eagle-import") 
+      (part "HEADER-2X3") 
+      (description "PIN HEADER") 
+      (fields 
+        (field 
+          (name "Reference") "JP") 
+        (field 
+          (name "Value")) 
+        (field 
+          (name "Footprint") "Metro THM+LDO Rev C - CP2104:2X03_ROUND_70MIL") 
+        (field 
+          (name "Datasheet")) 
+        (field 
+          (name "Description") "PIN HEADER")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "1") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "2") 
+          (type "passive")) 
+        (pin 
+          (num "3") 
+          (name "3") 
+          (type "passive")) 
+        (pin 
+          (num "4") 
+          (name "4") 
+          (type "passive")) 
+        (pin 
+          (num "5") 
+          (name "5") 
+          (type "passive")) 
+        (pin 
+          (num "6") 
+          (name "6") 
+          (type "passive"))))) 
+  (libraries 
+    (library 
+      (logical "2024-11-01_19-55-46") 
+      (uri "/Users/natpoor/Dropbox/Badges PCB/KiCADv6/2024-11-01_19-55-46.kicad_sym")) 
+    (library 
+      (logical "2025-02-05_22-10-57") 
+      (uri "/Users/natpoor/Documents/KiCad Projects/Game_Studies_2025/Footprints/FSM cheap button/2025-02-05_22-10-57.kicad_sym")) 
+    (library 
+      (logical "BH-67D-5") 
+      (uri "/Users/natpoor/Documents/KiCad Projects/Game_Studies_2025/Footprints/BH_67D_5/BH-67D-5.kicad_sym")) 
+    (library 
+      (logical "Device") 
+      (uri "/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym"))) 
+  (nets 
+    (net 
+      (code "1") 
+      (name "GND") 
+      (node 
+        (ref "BT1") 
+        (pin "N") 
+        (pintype "passive")) 
+      (node 
+        (ref "Button1Power1") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "unspecified")) 
+      (node 
+        (ref "C1") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "D1") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "D2") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "D3") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "D4") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "ICSP1") 
+        (pin "6") 
+        (pinfunction "6") 
+        (pintype "passive")) 
+      (node 
+        (ref "R5") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "21") 
+        (pinfunction "GND") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U1") 
+        (pin "5") 
+        (pinfunction "GND") 
+        (pintype "power_in"))) 
+    (net 
+      (code "2") 
+      (name "Net-(Button1Power1-Pad4)") 
+      (node 
+        (ref "Button1Power1") 
+        (pin "4") 
+        (pinfunction "4") 
+        (pintype "unspecified")) 
+      (node 
+        (ref "R6") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "3") 
+      (name "Net-(Button2Mode1-Pad1)") 
+      (node 
+        (ref "Button2Mode1") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "unspecified")) 
+      (node 
+        (ref "R5") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "4") 
+      (name "Net-(D1-A)") 
+      (node 
+        (ref "D1") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "R1") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "5") 
+      (name "Net-(D2-A)") 
+      (node 
+        (ref "D2") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "R3") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "6") 
+      (name "Net-(D3-A)") 
+      (node 
+        (ref "D3") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "R2") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "7") 
+      (name "Net-(D4-A)") 
+      (node 
+        (ref "D4") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "R4") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "8") 
+      (name "Net-(U1-(*RESET)PC6)") 
+      (node 
+        (ref "ICSP1") 
+        (pin "5") 
+        (pinfunction "5") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "29") 
+        (pinfunction "(*RESET)PC6") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "9") 
+      (name "Net-(U1-(ICP1{slash}CLKO{slash}PTCXY)PB0)") 
+      (node 
+        (ref "Button1Power1") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "unspecified")) 
+      (node 
+        (ref "U1") 
+        (pin "12") 
+        (pinfunction "(ICP1/CLKO/PTCXY)PB0") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "10") 
+      (name "Net-(U1-(MISO0{slash}RXD1{slash}PTCXY)PB4)") 
+      (node 
+        (ref "ICSP1") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "16") 
+        (pinfunction "(MISO0/RXD1/PTCXY)PB4") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "11") 
+      (name "Net-(U1-(MOSI0{slash}TXD1{slash}OC2A{slash}PTCXY)PB3)") 
+      (node 
+        (ref "ICSP1") 
+        (pin "4") 
+        (pinfunction "4") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "15") 
+        (pinfunction "(MOSI0/TXD1/OC2A/PTCXY)PB3") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "12") 
+      (name "Net-(U1-(OC1A{slash}PTCXY)PB1)") 
+      (node 
+        (ref "Button2Mode1") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "unspecified")) 
+      (node 
+        (ref "U1") 
+        (pin "13") 
+        (pinfunction "(OC1A/PTCXY)PB1") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "13") 
+      (name "Net-(U1-(OC2B{slash}INT1{slash}PTCXY)PD3)") 
+      (node 
+        (ref "R1") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "1") 
+        (pinfunction "(OC2B/INT1/PTCXY)PD3") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "14") 
+      (name "Net-(U1-(PTCXY{slash}INT0{slash}OC3B{slash}OC4B)PD2)") 
+      (node 
+        (ref "R3") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "32") 
+        (pinfunction "(PTCXY/INT0/OC3B/OC4B)PD2") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "15") 
+      (name "Net-(U1-(PTCXY{slash}OC3A{slash}RXD0)PD0)") 
+      (node 
+        (ref "R4") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "30") 
+        (pinfunction "(PTCXY/OC3A/RXD0)PD0") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "16") 
+      (name "Net-(U1-(PTCXY{slash}OC4A{slash}TXD0)PD1)") 
+      (node 
+        (ref "R2") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "31") 
+        (pinfunction "(PTCXY/OC4A/TXD0)PD1") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "17") 
+      (name "Net-(U1-(PTCXY{slash}XCK1{slash}SCK0)PB5)") 
+      (node 
+        (ref "ICSP1") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "17") 
+        (pinfunction "(PTCXY/XCK1/SCK0)PB5") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "18") 
+      (name "Net-(U1-AVCC)") 
+      (node 
+        (ref "BT1") 
+        (pin "P1") 
+        (pintype "passive")) 
+      (node 
+        (ref "Button2Mode1") 
+        (pin "4") 
+        (pinfunction "4") 
+        (pintype "unspecified")) 
+      (node 
+        (ref "C1") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "ICSP1") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R6") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "18") 
+        (pinfunction "AVCC") 
+        (pintype "power_in")) 
+      (node 
+        (ref "U1") 
+        (pin "4") 
+        (pinfunction "VCC") 
+        (pintype "power_in"))) 
+    (net 
+      (code "19") 
+      (name "unconnected-(Button1Power1-Pad2)") 
+      (node 
+        (ref "Button1Power1") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "unspecified"))) 
+    (net 
+      (code "20") 
+      (name "unconnected-(Button2Mode1-Pad2)") 
+      (node 
+        (ref "Button2Mode1") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "unspecified"))) 
+    (net 
+      (code "21") 
+      (name "unconnected-(U1-(*SS0{slash}OC1B{slash}PTCXY)PB2-Pad14)") 
+      (node 
+        (ref "U1") 
+        (pin "14") 
+        (pinfunction "(*SS0/OC1B/PTCXY)PB2") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "22") 
+      (name "unconnected-(U1-(ADC0{slash}PTCY{slash}MISO1)PC0-Pad23)") 
+      (node 
+        (ref "U1") 
+        (pin "23") 
+        (pinfunction "(ADC0/PTCY/MISO1)PC0") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "23") 
+      (name "unconnected-(U1-(ADC1{slash}PTCY{slash}SCK1)PC1-Pad24)") 
+      (node 
+        (ref "U1") 
+        (pin "24") 
+        (pinfunction "(ADC1/PTCY/SCK1)PC1") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "24") 
+      (name "unconnected-(U1-(ADC2{slash}PTCY)PC2-Pad25)") 
+      (node 
+        (ref "U1") 
+        (pin "25") 
+        (pinfunction "(ADC2/PTCY)PC2") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "25") 
+      (name "unconnected-(U1-(ADC3{slash}PTCY)PC3-Pad26)") 
+      (node 
+        (ref "U1") 
+        (pin "26") 
+        (pinfunction "(ADC3/PTCY)PC3") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "26") 
+      (name "unconnected-(U1-(ADC4{slash}PTCY{slash}SDA0)PC4-Pad27)") 
+      (node 
+        (ref "U1") 
+        (pin "27") 
+        (pinfunction "(ADC4/PTCY/SDA0)PC4") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "27") 
+      (name "unconnected-(U1-(ADC5{slash}PTCY{slash}SCL0)PC5-Pad28)") 
+      (node 
+        (ref "U1") 
+        (pin "28") 
+        (pinfunction "(ADC5/PTCY/SCL0)PC5") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "28") 
+      (name "unconnected-(U1-(ADC6{slash}PTCY{slash}ICP3{slash}*SS1)PE2-Pad19)") 
+      (node 
+        (ref "U1") 
+        (pin "19") 
+        (pinfunction "(ADC6/PTCY/ICP3/*SS1)PE2") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "29") 
+      (name "unconnected-(U1-(ADC7{slash}PTCY{slash}T3{slash}MOSI1)PE3-Pad22)") 
+      (node 
+        (ref "U1") 
+        (pin "22") 
+        (pinfunction "(ADC7/PTCY/T3/MOSI1)PE3") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "30") 
+      (name "unconnected-(U1-(OC0A{slash}PTCXY{slash}AIN0)PD6-Pad10)") 
+      (node 
+        (ref "U1") 
+        (pin "10") 
+        (pinfunction "(OC0A/PTCXY/AIN0)PD6") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "31") 
+      (name "unconnected-(U1-(OC0B{slash}T1{slash}PTCXY)PD5-Pad9)") 
+      (node 
+        (ref "U1") 
+        (pin "9") 
+        (pinfunction "(OC0B/T1/PTCXY)PD5") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "32") 
+      (name "unconnected-(U1-(PTCXY{slash}AIN1)PD7-Pad11)") 
+      (node 
+        (ref "U1") 
+        (pin "11") 
+        (pinfunction "(PTCXY/AIN1)PD7") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "33") 
+      (name "unconnected-(U1-(SCL1{slash}T4{slash}PTCXY)PE1-Pad6)") 
+      (node 
+        (ref "U1") 
+        (pin "6") 
+        (pinfunction "(SCL1/T4/PTCXY)PE1") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "34") 
+      (name "unconnected-(U1-(SDA1{slash}ICP4{slash}ACO{slash}PTCXY)PE0-Pad3)") 
+      (node 
+        (ref "U1") 
+        (pin "3") 
+        (pinfunction "(SDA1/ICP4/ACO/PTCXY)PE0") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "35") 
+      (name "unconnected-(U1-(XCK0{slash}T0{slash}PTCXY)PD4-Pad2)") 
+      (node 
+        (ref "U1") 
+        (pin "2") 
+        (pinfunction "(XCK0/T0/PTCXY)PD4") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "36") 
+      (name "unconnected-(U1-(XTAL1{slash}TOSC1)PB6-Pad7)") 
+      (node 
+        (ref "U1") 
+        (pin "7") 
+        (pinfunction "(XTAL1/TOSC1)PB6") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "37") 
+      (name "unconnected-(U1-(XTAL2{slash}TOSC2)PB7-Pad8)") 
+      (node 
+        (ref "U1") 
+        (pin "8") 
+        (pinfunction "(XTAL2/TOSC2)PB7") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "38") 
+      (name "unconnected-(U1-AREF-Pad20)") 
+      (node 
+        (ref "U1") 
+        (pin "20") 
+        (pinfunction "AREF") 
+        (pintype "bidirectional")))))
