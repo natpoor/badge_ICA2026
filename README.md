@@ -2,7 +2,7 @@
 KiCAD etc files for the ICA 2026 PCB badge.
 I am not entirely sure which files to place here, as I read some varying info on the web, so, best guess.
 
-These files should get you a game-controller shaped blinking badge (four LEDs, colors/positions matching the Xbox controller), based on the ATMEGA 328PB chip. Has a Sleep button sand a Mode button (to change blink patterns). Wants a 3v coin battery, and uses a connector off the programmer from Tag-Connect. Only has SMD components (so no THT on the back to catch on clothing, it's a badge to be worn). 
+These files should get you a game-controller shaped blinking badge (four LEDs, colors/positions matching the Xbox controller), based on the ATMEGA 328PB chip. Has a Sleep button and a Mode button (to change blink patterns). Wants a 3v coin battery (2025/2032), and uses a connector off the programmer from Tag-Connect. Only has SMD components (so no THT on the back to catch on clothing, it's a badge to be worn). 
 
 My coding is mostly Python and R scripts (linear), and I learned just before event-loop programming took hold, so my code works but I have been told it is a bit odd and there are better ways to do it. Next time!
 
