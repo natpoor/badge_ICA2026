@@ -23,13 +23,14 @@ While debugging the 2027 code (for the 2027 badge), we used Claude Code because 
 
 I can’t actually test these changes on the 2026 badges because I gave all of them away! Which was great. But the changes work well enough in the 2027 code. So I’m not updating the code for 2026, although if I ever ordered more of those badges I would and then I could test it.
 
-LED pins should be…
-const int some_led = PIN_PD0
+LED pins should be…  
+const int some_led = PIN_PD0  
 …otherwise they aren’t quite assigned correctly except in some cases, but that’s not intentionally it’s just the two naming schemes happen to align briefly. That is, if you use the “PD0” code/location/name, you have to use “PIN_” in front of it.
 
 Also, from Claude, and assuming no hallucinations, but these changes all seem to not negatively affect the 2027 board:
 
-The analog comparator is never turned back on. ACSR |= (0 << ACD) does nothing. It should be ACSR &= ~(1 << ACD);.
+The analog comparator is never turned back on. ACSR |= (0 << ACD) does nothing. It should be...  
+ACSR &= ~(1 << ACD);  
 [That’s annoying since I got that code from somewhere official looking.]
 
 The brown-out detector isn't actually turned off during sleep. sleep_bod_disable() only lasts a few clock cycles before sleep has to start, and the ADC/ACSR lines in between use up that window. Use this order:
