@@ -24,7 +24,9 @@ While debugging the 2027 code (for the 2027 badge), we used Claude Code because 
 I can’t actually test these changes on the 2026 badges because I gave all of them away! Which was great. But the changes work well enough in the 2027 code. So I’m not updating the code for 2026, although if I ever ordered more of those badges I would and then I could test it.
 
 LED pins should be…  
-    const int some_led = PIN_PD0  
+'''
+const int some_led = PIN_PD0  
+'''
 …otherwise they aren’t quite assigned correctly except in some cases, but that’s not intentionally it’s just the two naming schemes happen to align briefly. That is, if you use the “PD0” code/location/name, you have to use “PIN_” in front of it.
   
 Also, from Claude, and assuming no hallucinations, but these changes all seem to not negatively affect the 2027 board:
